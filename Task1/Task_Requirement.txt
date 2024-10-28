@@ -1,0 +1,23 @@
+Să se realizeze un script ce colectează și afișează informații despre sistemul de operare.
+Scriptul va afișa un meniu cu următoarele opțiuni:
+
+1. Ieșire
+
+2. Afișare: ID-ul procesului initiat la executarea scriptului, tipul sistemului de operare, numarul de secunde de cand s-a executat scriptul și calea curentă (vezi variabile de sistem)
+
+3. Afișarea numarului săptămânii din an, si a zilei săptămânii în care va fi Crăciunul în acest an (vezi date)
+
+4. Afișarea primelor 2 shell-urilor instalate în sistem (vezi /etc/shells)
+
+5. Afișarea pentru toți utilizatorii din sistem a numelui de login, a user ID-ului, a numelui complet si a directorului de home (vezi /etc/passwd)
+
+6. Afişare ultimele linii începând cu linia 9 din fișierul /etc/protocols folosind comanda tail.
+
+7. Afișare tip procesor şi mărimea cache-ului (vezi /proc/cpuinfo)
+
+8. Scrieți comanda ls care afișează toate numele de directoare din directorul /proc care nu reprezintă imaginea unui proces pe disc (numele directorului care reprezintă imaginea unui proces pe disc este format doar din cifre)
+
+9. Sa se afiseze toate fisierele de log. Sa se creeze o funcție care primește ca si parametrii cititi de la tastatura un nume de fișier de log (ori curent ori arhivat) și un text, si care va căuta si afișa liniile care conțin textul primit ca si parametru.
+
+Pentru căutarea în fișierele arhivate ale logului vezi gunzip -c
+

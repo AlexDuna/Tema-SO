@@ -1,0 +1,14 @@
+Realizați un program C care primește 2 argumente din linia de comandă: un director sursă și un director destinație.
+Se va parcurge recursiv structura de directoare din directorul sursă. Pentru fiecare intrare din directorul sursă, se vor executa următoarele operații, în funcție de tipul intrării:
+
+-Pentru directoare, se va crea un director echivalent în directorul destinație, cu aceleași drepturi ca directorul original. Astfel, structura de directoare din directorul destinație va fi asemănătoare cu cea din sursă.
+
+-Pentru fișierele obișnuite, în funcție de dimensiunea fișierului se va crea o copie sau o legătura simbolică:
+
+-Pentru fișierele mai mici de 500 octeți, se va crea o copie a fișierului în directorul destinație (și, după caz, în subfolderul echivalent). Aceste fișiere copie vor avea aceleași drepturi de read ca și fișierele originale (Ex: dacă fișierul original are –rwx-wxr-x, fisierul nou va avea –r-----r--).
+
+-Pentru celelalte fișiere, se vor crea legături simbolice către fișierul original. Aceste linkuri vor avea aceleași drepturi de acces ca și fișierele originale.
+
+-Pentru (soft) linkuri, nu se va executa nici o operație.
+
+Tema va fi însoțita de fișierul makefile corespunzător.
